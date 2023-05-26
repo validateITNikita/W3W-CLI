@@ -6,17 +6,21 @@
   "type": "module",
   "scripts": {
     "dev": "npx tsc && pnpm start",
-    "start" : "node ./build/index.js"
+    "start": "node ./build/index.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
+    "@types/chalk-animation": "^1.6.1",
     "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.6"
   }
 }
